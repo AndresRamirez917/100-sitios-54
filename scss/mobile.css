@@ -28,12 +28,13 @@
   grid-column: 1;
 }
 #stories .box-1 {
-  grid-row: 1;
-  text-align: left;
+  grid-row: 2;
 }
 #stories .box-2 {
-  grid-row: 2;
+  grid-row: 1;
   background: #000;
+  padding: 0;
+  padding: 50px;
 }
 #stories .box-3 {
   grid-row: 3;

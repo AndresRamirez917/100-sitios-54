@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
@@ -48,6 +49,7 @@ form .form-control {
   padding: 1rem;
   border-radius: 3px;
   margin-bottom: 1rem;
+  background: rgba(234, 234, 234, 0.4823529412);
 }
 form button {
   width: 100%;
@@ -93,6 +95,7 @@ form .button-2::after {
   margin-top: 2rem;
   display: inline-block;
   margin-left: 1rem;
+  font-size: small;
 }
 #mainheader .navbar ul li a:hover,
 #mainheader .navbar ul li a:active {
@@ -102,7 +105,6 @@ form .button-2::after {
   color: #000;
 }
 #mainheader .button-1 {
-  position: relative;
   width: 50%;
   grid-column: 3;
   grid-row: 1;
@@ -291,8 +293,12 @@ form .button-2::after {
   margin-top: 5rem;
   text-align: center;
 }
+#footer .footer-grid-3 {
+  color: #fff;
+}
 #footer .footer-grid-3 a {
   margin-bottom: 4rem;
+  color: #fff;
 }
 #footer .footer-grid-3 h3 {
   margin-top: 7rem;
